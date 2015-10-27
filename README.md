@@ -19,7 +19,7 @@ Run the unit test to verify everything works correctly
 
     ~$ ./vendor/bin/phpunit tests/
 
-You sould see the following output
+You should see the following output
 
     PHPUnit 4.8.16 by Sebastian Bergmann and contributors.
 
@@ -42,3 +42,11 @@ Suppose you want to create a namespace named `MyNameSpace`
    it matches the php file name exactly
 5. Files that wish to use `MyClass` can now access it via `use
    MyNameSpace\MyClass`.
+
+Adding/editing namespaces
+-------------------------
+
+Any time you update composer.json with new namespace information, you must run
+an update.
+
+    $ php composer.phar update
