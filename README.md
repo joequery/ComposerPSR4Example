@@ -13,7 +13,7 @@ Usage
 
 Install the dependencies (currently only phpunit)
 
-    $ php composer.php install
+    $ php composer.phar install
 
 Run the unit test to verify everything works correctly
 
